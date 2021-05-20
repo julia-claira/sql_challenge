@@ -126,3 +126,7 @@ select a.last_name as "Last Name", count(a.last_name) as "Name Frequency" from e
 group by last_name
 order by 1,2;
 
+-- epilogue
+select * from employees
+where emp_no = 499942
+
