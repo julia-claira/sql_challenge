@@ -62,4 +62,3 @@ select a.last_name as "Last Name", count(a.last_name) as "Name Frequency" from e
 group by last_name
 order by 2 desc,1 desc;
 
-
